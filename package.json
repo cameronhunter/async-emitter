@@ -1,0 +1,41 @@
+{
+  "name": "@cameronhunter/async-emitter",
+  "version": "0.0.0",
+  "description": "Emit events with a promise queue using setImmediate",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.build.json",
+    "format": "prettier --write .",
+    "test": "jest --passWithNoTests"
+  },
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "keywords": [
+    "promise",
+    "events",
+    "event handler",
+    "setImmediate"
+  ],
+  "author": "Cameron Hunter <hello@cameronhunter.co.uk>",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@tsconfig/node-lts": "^18.12.5",
+    "@types/jest": "^29.5.8",
+    "@types/node": "^18",
+    "jest": "^29.7.0",
+    "prettier": "^3.1.0",
+    "prettier-2": "npm:prettier@^2",
+    "ts-jest": "^29.1.1",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "core-js": "^3.33.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@8.10.5"
+}
