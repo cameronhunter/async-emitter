@@ -39,7 +39,7 @@
     "typescript": "5.2.2"
   },
   "dependencies": {
-    "core-js": "^3.33.2"
+    "core-js": "^3.33.3"
   },
   "publishConfig": {
     "access": "public"
