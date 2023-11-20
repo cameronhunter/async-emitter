@@ -1,6 +1,6 @@
 {
   "name": "@cameronhunter/async-emitter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Emit events with a promise queue using setImmediate",
   "scripts": {
     "build": "tsc -p ./tsconfig.build.json",
