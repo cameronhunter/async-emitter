@@ -10,3 +10,15 @@ updates:
       versioning-strategy: increase
       schedule:
           interval: 'weekly'
+
+      ##
+      # Use conventional commits so that an appropriate changeset can be
+      # created for the change. Changes to dependencies will cause a `patch`
+      # version, whereas devDependencies will cause no change.
+      #
+      # See: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#commit-message
+      ##
+      commit-message:
+          prefix: 'fix'
+          prefix-development: 'chore'
+          include: 'scope'
